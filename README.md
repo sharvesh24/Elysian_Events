@@ -1,22 +1,210 @@
-<<<<<<< HEAD
-# React + Vite
+# ✨ Elysian Events
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **luxury event management platform** built with React, designed to connect customers with premium event vendors and streamline event planning with a rich, elegant UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Overview
 
-## React Compiler
+Elysian Events is a feature-rich frontend application where users can:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* 🎉 Plan and book luxury events
+* 🤝 Discover premium event vendors
+* 📊 Manage bookings and payments
+* 👤 Use role-based dashboards (Customer, Vendor, Admin)
+* 💎 Experience a premium gold-themed UI design
 
-Note: This will impact Vite dev & build performances.
+The project includes a **mock API system**, so it works even without a backend.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Elysian_Events
->>>>>>> c7f58388e39119977f959b35ecf1f04b8f3bfa6f
+## 🚀 Features
+
+### 🔐 Authentication
+
+* Login & Registration system
+* Role-based access control:
+
+  * Customer
+  * Vendor
+  * Admin
+
+---
+
+### 👤 Customer Features
+
+* Browse and search vendors
+* Book events
+* Track bookings and payments
+* View notifications
+* Dashboard with stats
+
+---
+
+### 🏢 Vendor Features
+
+* Manage booking requests
+* Accept/decline events
+* View analytics
+* Manage business profile
+
+---
+
+### 🛠️ Admin Features
+
+* Manage users
+* View all bookings
+* Platform analytics
+* Monitor vendors
+
+---
+
+### 🎨 UI/UX Highlights
+
+* Luxury gold-themed design system
+* Responsive layout
+* Glassmorphism cards
+* Animations & transitions
+* Custom components (badges, cards, tables, etc.)
+
+---
+
+### ⚙️ Mock Backend
+
+* Built-in mock API
+* Simulates:
+
+  * Vendors
+  * Bookings
+  * Reviews
+  * Notifications
+* Automatically activates if backend is offline
+
+---
+
+## 🧱 Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Custom CSS (Glass UI + Gold Theme)
+* **State Management:** React Hooks + Context API
+* **API Handling:** Fetch API with fallback mock system
+
+---
+
+## 📁 Project Structure
+
+```
+elysian-events/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles & components
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚡ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sharvesh24/Elysian_Events.git
+cd Elysian_Events
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the project
+
+```bash
+npm run dev
+```
+
+App will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔑 Demo Credentials (Mock Login)
+
+| Role     | Email                                           | Password    |
+| -------- | ----------------------------------------------- | ----------- |
+| Admin    | [admin@elysian.com](mailto:admin@elysian.com)   | admin123    |
+| Vendor   | [aurora@elysian.com](mailto:aurora@elysian.com) | vendor123   |
+| Customer | [priya@example.com](mailto:priya@example.com)   | customer123 |
+
+---
+
+## 🌐 API Configuration
+
+Default API base:
+
+```
+http://localhost:5000/api
+```
+
+If backend is not running → app uses mock data automatically.
+
+---
+
+## 📸 Screens (Optional)
+
+Add screenshots here later:
+
+* Login Page
+* Dashboard
+* Vendor Listings
+* Booking Page
+
+---
+
+## 📌 Future Improvements
+
+* 🔗 Real backend integration (Node.js / Express / MongoDB)
+* 💳 Payment gateway integration
+* 📧 Email notifications
+* 📱 Mobile optimization
+* 🔍 Advanced filtering & search
+* 🧾 Invoice generation
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Sharvesh**
+GitHub: https://github.com/sharvesh24
+
+---
+
+## 💫 Acknowledgement
+
+Designed to deliver a **premium luxury event planning experience** with a focus on UI elegance and usability.
+
+---
